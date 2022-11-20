@@ -592,6 +592,26 @@ i {
     flex-wrap: wrap;
   }
 
-  /*sobre nós 1:04:56*/
+  /*sobre nós*/
+  #about{
+    gap: 0;
+  }
+  #about-text,
+  #about-data{
+    flex:1 1 100%
+  }
+  .about-description{
+    gap: 1rem;
+  }
+  .about-description i{
+    padding: 0;
+    min-width: 40px;/*falha no código. O tamanho do ícone está no svg do html*/
+  }
+  #about #about-data .data{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--secondary-text-color);
+  }
+  /*depoimentos*/
 
 }
