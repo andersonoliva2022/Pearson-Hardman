@@ -1,4 +1,10 @@
-/*GERAL*/
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*Bootstrap - Icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css");
+
+/* Geral */
 :root {
   --main-color: #d92123;
   --primary-text-color: #fff;
@@ -8,14 +14,8 @@
   --secondary-bg-color: #5c1011;
 }
 
-/*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-/*Bootstrap - Icons*/
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css");
-
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -23,14 +23,13 @@
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 img {
   width: 100%;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   cursor: pointer;
 }
 
@@ -41,10 +40,10 @@ i {
   padding: 2rem;
 }
 
-/*cabeçalho e banner*/
+/* Cabeçalho e banner */
 #header {
   min-height: 90vh;
-  background-image: url(../img/main_banner4.png);
+  background-image: url("../img/main_banner4.png");
   background-size: cover;
   background-position: center;
   color: var(--primary-text-color);
@@ -105,7 +104,7 @@ i {
   background-color: var(--main-color);
   position: absolute;
   z-index: 1;
-  left: 40px;
+  left: 20px;
   top: 40px;
 }
 
@@ -127,7 +126,7 @@ i {
   background-color: var(--main-color);
 }
 
-/*Áreas de atuação*/
+/* Áreas de atuação */
 .text-image-section {
   display: flex;
   flex-wrap: wrap;
@@ -160,8 +159,8 @@ i {
   font-size: 1.4rem;
   font-weight: bold;
   background-color: var(--main-color);
-  align-self: end;
   color: var(--primary-text-color);
+  align-self: end;
 }
 
 .image-container {
@@ -189,7 +188,7 @@ i {
   left: 0;
   top: 0;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .service-info {
@@ -202,12 +201,12 @@ i {
 }
 
 .service h4 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
-/*sobre nós*/
+/* Sobre nós */
 #about {
   display: flex;
   flex-wrap: wrap;
@@ -278,7 +277,7 @@ i {
 #about-data .data i {
   background-color: transparent;
   color: var(--main-color);
-  font-size: 4rem;
+  font-size:4rem;/*O CSS falhou e o tamanho do ícone foi alterado no html em 64 px*/
   padding: 0;
 }
 
@@ -291,7 +290,7 @@ i {
   text-transform: uppercase;
 }
 
-/*Depoimentos*/
+/* Depoimentos */
 #testimonials {
   display: flex;
   align-items: center;
@@ -325,7 +324,7 @@ i {
   height: 100px;
 }
 
-/*colaboradores*/
+/* Colaboradores */
 #team {
   position: relative;
   margin-bottom: 2rem;
@@ -509,7 +508,7 @@ i {
   color: var(--secondary-color);
 }
 
-/*mobile nav bar*/
+/* Mobile navbar */
 #menu,
 #close-menu {
   font-size: 2rem;
@@ -548,9 +547,7 @@ i {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--main-color);
-
 }
-
 /*Responsivo*/
 @media(max-width: 450px) {
 
