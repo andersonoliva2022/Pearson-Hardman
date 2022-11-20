@@ -637,7 +637,7 @@ i {
     padding: 7rem 1rem;
   }
 
-  #contact-information .form-control {
+ /* #contact-information .form-control {
     flex-direction: column;
   }
 
@@ -645,7 +645,35 @@ i {
     align-self: auto;
   }
 
+  /*Rodapé*/
+  #footer {
+    flex-wrap: wrap;
+  }
 
+  #footer i {
+    /*font-size: 2rem; ---falha no código*/
+    padding: 1rem;
+  }
 
+  .footer-brand {
+    text-align: center;
+  }
+
+  .networks {
+    margin-bottom: 3rem;
+  }
+
+  .links-container {
+    margin-bottom: 1rem;
+  }
+
+  .links-container h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info,
+  .links-container {
+    width: 100%;
+  }
 
 }
